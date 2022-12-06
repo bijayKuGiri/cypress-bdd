@@ -1,0 +1,93 @@
+[
+  {
+    "description": "    Feature This Feature is required to check login functionality for valid and invalid user",
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;login-check-for-a-valid-user",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login check for a valid user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Appliction up and Running",
+            "result": {
+              "status": "passed",
+              "duration": 1862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "try to login with valid credentails",
+            "result": {
+              "status": "passed",
+              "duration": 1270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should able to login to the application",
+            "result": {
+              "status": "passed",
+              "duration": 6677000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;login-check-for-a-invalid-user",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login check for a invalid user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Appliction up and Running",
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "try to login with email as \"Test@intrivo.com\" and password as \"WrongPwd\"",
+            "result": {
+              "status": "passed",
+              "duration": 759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "error message should display",
+            "result": {
+              "status": "passed",
+              "duration": 890000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

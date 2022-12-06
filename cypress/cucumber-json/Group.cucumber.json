@@ -1,0 +1,109 @@
+[
+  {
+    "description": "    Feature This Feature is required to check the Group related functionality",
+    "keyword": "Feature",
+    "name": "Group Functionality",
+    "line": 1,
+    "id": "group-functionality",
+    "tags": [],
+    "uri": "Group.feature",
+    "elements": [
+      {
+        "id": "group-functionality;add-a-new-group",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add a new Group",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Logged in to potal with email as \"bijaykumargiri+qaportal@gmail.com\" and password as \"Test123!\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "try add a new Group by using Group Data",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Groups should be created",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "group-functionality;delete-group",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Delete Group",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Logged in to potal with email as \"bijaykumargiri+qaportal@gmail.com\" and password as \"Test123!\"",
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.MuiButton-label, Sign In`, but never found it. Queried from element: <form>\n    at Context.eval (https://portal-qa.intrivo.com/__cypress/tests?p=cypress/integration/Feature/Group.feature:69:27)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "groupName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "OnGo_GROUP_41"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "trying to Delete Group",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Group should be Deleted",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

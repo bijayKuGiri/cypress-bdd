@@ -1,0 +1,321 @@
+[
+  {
+    "description": "  Feature This Feature is required to check User functionality",
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "User.feature",
+    "elements": [
+      {
+        "id": "login-functionality;create-a-new-user-with-existing-data",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Create a New User with Existing Data",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login potal with email as \"bijaykumargiri+stageportal@gmail.com\" and password as \"Test123#\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "try to Create a new user by passing EmployeeId as \"2022030064\", firstName as \" cySecond5\", lastName as \"cylastname4\" and Email as \"bijaykumargiri+30403@gmail.com\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should be added successfully.",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;search-for-an-user",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search for an user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login potal with email as \"bijaykumargiri+stageportal@gmail.com\" and password as \"Test123#\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "try to Search as \"Bijay\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Result should displays searched item",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-functionality;create-users-with-bulk-data",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Create Users with bulk Data",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login potal with email as \"bijaykumargiri+stageportal@gmail.com\" and password as \"Test123#\"",
+            "result": {
+              "status": "passed",
+              "duration": 8484000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "EmpID",
+                      "FirstName",
+                      "LastName",
+                      "Email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "38",
+                      "Srikant1",
+                      "Mahapatro",
+                      "bijaykumargiri+intrivo131@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "39",
+                      "Nibedita1",
+                      "Goswamy",
+                      "bijaykumargiri+intrivo141@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "40",
+                      "Neeraj1",
+                      "Mourya",
+                      "bijaykumargiri+intrivo151@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "41",
+                      "Bijay2",
+                      "Giri",
+                      "bijaykumargiri+intrivo121@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "43",
+                      "Srikant2",
+                      "Mahapatro",
+                      "bijaykumargiri+intrivo131@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "44",
+                      "Nibedita2",
+                      "Goswamy",
+                      "bijaykumargiri+intrivo141@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "45",
+                      "Neeraj2",
+                      "Mourya",
+                      "bijaykumargiri+intrivo251@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "46",
+                      "MdShabab3",
+                      "Alam",
+                      "bijaykumargiri+intrivo261@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "47",
+                      "Bijay3",
+                      "Giri",
+                      "bijaykumargiri+intrivo262@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "48",
+                      "Srikant3",
+                      "Mahapatro",
+                      "bijaykumargiri+intrivo263@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "49",
+                      "Nibedita3",
+                      "Goswamy",
+                      "bijaykumargiri+intrivo264@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "50",
+                      "Neeraj3",
+                      "Mourya",
+                      "bijaykumargiri+intrivo265@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "51",
+                      "MdShabab4",
+                      "Alam",
+                      "bijaykumargiri+intrivo266@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "52",
+                      "Bijay4",
+                      "Giri",
+                      "bijaykumargiri+intrivo267@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "53",
+                      "Srikant4",
+                      "Mahapatro",
+                      "bijaykumargiri+intrivo268@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "54",
+                      "Nibedita4",
+                      "Goswamy",
+                      "bijaykumargiri+intrivo269@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "55",
+                      "Neeraj4",
+                      "Mourya",
+                      "bijaykumargiri+intrivo270@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "56",
+                      "MdShabab5",
+                      "Alam",
+                      "bijaykumargiri+intrivo271@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "57",
+                      "Bijay5",
+                      "Giri",
+                      "bijaykumargiri+intrivo272@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "58",
+                      "Srikant5",
+                      "Mahapatro",
+                      "bijaykumargiri+intrivo273@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "59",
+                      "Nibedita5",
+                      "Goswamy",
+                      "bijaykumargiri+intrivo274@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "60",
+                      "Neeraj5",
+                      "Mourya",
+                      "bijaykumargiri+intrivo275@gmail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 23,
+            "name": "try to Create a new user by passing",
+            "result": {
+              "status": "passed",
+              "duration": 114495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "user should be added successfully.",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

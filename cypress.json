@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://portal-qa.intrivo.com",
+    "testFiles": "**/*.{feature,features}",
+    "defaultCommandTimeout": 10000
+}
